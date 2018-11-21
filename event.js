@@ -1,4 +1,4 @@
-/*
+ /*
 MIT License
 
 Copyright (c) 2018 smef.pw (smef.cc)
@@ -31,7 +31,6 @@ function checkConsole(){
 	}
 }
 
-
 // disable rightclick
 document.addEventListener("contextmenu", function(disablemouse) {
  disablemouse.preventDefault();
@@ -42,35 +41,17 @@ checkConsole();
 // disable rightclick
 
 // urls functions
-function twitter() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#009EBD\">[smef]</font> twitter link was clicked by user</font><br>";
+function example() {
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#009EBD\">[smef]</font> example link was clicked</font><br>";
 	i += 1;
 	checkConsole();
-}
-
-function discord() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#009EBD\">[smef]</font> discord link was clicked by user</font><br>";
-	i += 1;
-checkConsole();
-}
-
-function selly() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#009EBD\">[smef]</font> selly link was clicked by user</font><br>";
-	i += 1;
-checkConsole();
-}
-
-function youtube() {
-	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#009EBD\">[smef]</font> youtube link was clicked by user</font><br>";
-	i += 1;
-checkConsole();
 }
 // urls functions
 
 // site checker
 function checkURL() {
 var currentLocation = window.location.href;
-	if (currentLocation == "https://smef.pw/") {
+	if (currentLocation == "https://example.org") {
 		document.getElementById('smefpw').innerHTML += "<br><font face=\"verdana\"><font color=\"#009EBD\">[smef]</font> official site<br></font>";
 }	
 else {
